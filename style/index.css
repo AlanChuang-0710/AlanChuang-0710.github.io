@@ -169,6 +169,16 @@ body {
   width: 5rem;
   background: #333;
 }
+.about .about-intro {
+  text-align: justify;
+  display: none;
+}
+.about .about-intro:first-child {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}
 .about .my-skill {
   margin-top: 60px;
   padding: 0 2rem;
@@ -607,6 +617,9 @@ footer p {
   }
   .home .intro {
     text-align: center;
+  }
+  .about .about-intro {
+    display: block;
   }
   .about .about1 {
     margin-bottom: 50px;

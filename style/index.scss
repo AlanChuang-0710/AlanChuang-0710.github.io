@@ -189,6 +189,20 @@ body {
     @include heading();
   }
 
+  .about-intro {
+    text-align: justify;
+    display: none;
+
+    &:first-child {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 7;
+    }
+  }
+
+
+
   .my-skill {
     margin-top: 60px;
     padding: 0 2rem;
@@ -651,6 +665,9 @@ footer {
   }
 
   .about {
+    .about-intro {
+      display: block;
+    }
 
     .about1 {
       margin-bottom: 50px;

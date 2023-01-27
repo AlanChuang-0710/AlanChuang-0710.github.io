@@ -169,16 +169,6 @@ body {
   width: 5rem;
   background: #333;
 }
-.about .about-intro {
-  text-align: justify;
-  display: none;
-}
-.about .about-intro:first-child {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 7;
-}
 .about .my-skill {
   margin-top: 60px;
   padding: 0 2rem;
@@ -236,10 +226,18 @@ body {
   padding: 0 2rem;
   text-align: left;
 }
-.about .info p {
+.about .info .about-intro {
+  text-align: justify;
+  display: none;
   text-transform: none;
   font-size: 1.7rem;
   color: #333;
+}
+.about .info .about-intro:first-child {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
 }
 
 /* portfolio section */
@@ -618,9 +616,6 @@ footer p {
   .home .intro {
     text-align: center;
   }
-  .about .about-intro {
-    display: block;
-  }
   .about .about1 {
     margin-bottom: 50px;
   }
@@ -629,6 +624,9 @@ footer p {
   }
   .about .info h2 {
     font-size: 2.5rem;
+  }
+  .about .info .about-intro {
+    display: block;
   }
   .experience .box {
     height: 20rem;

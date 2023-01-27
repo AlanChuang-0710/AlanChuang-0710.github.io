@@ -189,18 +189,6 @@ body {
     @include heading();
   }
 
-  .about-intro {
-    text-align: justify;
-    display: none;
-
-    &:first-child {
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 7;
-    }
-  }
-
 
 
   .my-skill {
@@ -278,10 +266,19 @@ body {
     padding: 0 2rem;
     text-align: left;
 
-    p {
+    .about-intro {
+      text-align: justify;
+      display: none;
       text-transform: none;
       font-size: 1.7rem;
       color: #333;
+
+      &:first-child {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+      }
     }
   }
 }
@@ -665,9 +662,6 @@ footer {
   }
 
   .about {
-    .about-intro {
-      display: block;
-    }
 
     .about1 {
       margin-bottom: 50px;
@@ -680,6 +674,10 @@ footer {
     .info {
       h2 {
         font-size: 2.5rem;
+      }
+
+      .about-intro {
+        display: block;
       }
     }
   }

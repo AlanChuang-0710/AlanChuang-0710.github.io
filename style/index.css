@@ -1,26 +1,26 @@
-@-webkit-keyframes slowMoveRight {
+@-webkit-keyframes slowMoveTop {
   0% {
-    left: -200px;
+    bottom: -200px;
     opacity: 0.5;
   }
   100% {
-    left: 0;
+    bottom: 0;
     opacity: 1;
   }
 }
-@keyframes slowMoveRight {
+@keyframes slowMoveTop {
   0% {
-    left: -200px;
+    bottom: -200px;
     opacity: 0.5;
   }
   100% {
-    left: 0;
+    bottom: 0;
     opacity: 1;
   }
 }
-.slowMoveRight {
-  -webkit-animation: slowMoveRight 1.5s ease-out forwards;
-          animation: slowMoveRight 1.5s ease-out forwards;
+.slowMoveTop {
+  -webkit-animation: slowMoveTop 1.5s ease-out forwards;
+          animation: slowMoveTop 1.5s ease-out forwards;
 }
 
 * {

@@ -28,7 +28,7 @@
     })
 })();
 
-/* 滑動到各section 加上slowMoveRight動畫的效果 */
+/* 滑動到各section 加上slowMoveTop動畫的效果 */
 (function () {
     let home = document.querySelector(".home");
     let about = document.querySelector(".about");
@@ -38,12 +38,12 @@
     document.addEventListener("scroll", () => {
         let scrollBar = window.scrollY;
         if (scrollBar >= home.offsetHeight / 2) {
-            about.classList.add("slowMoveRight");
+            about.classList.add("slowMoveTop");
         }
 
         if (scrollBar >= distance) {
             experienceBoxes.forEach((box) => {
-                box.classList.add("slowMoveRight");
+                box.classList.add("slowMoveTop");
             })
         }
     })

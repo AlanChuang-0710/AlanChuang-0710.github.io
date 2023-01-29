@@ -20,20 +20,20 @@ $blue: #225687;
   }
 }
 
-@keyframes slowMoveRight {
+@keyframes slowMoveTop {
   0% {
-    left: -200px;
+    bottom: -200px;
     opacity: 0.5;
   }
 
   100% {
-    left: 0;
+    bottom: 0;
     opacity: 1;
   }
 }
 
-.slowMoveRight {
-  animation: slowMoveRight 1.5s ease-out forwards;
+.slowMoveTop {
+  animation: slowMoveTop 1.5s ease-out forwards;
 }
 
 * {
@@ -188,8 +188,6 @@ body {
   .heading {
     @include heading();
   }
-
-
 
   .my-skill {
     margin-top: 60px;

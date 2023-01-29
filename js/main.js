@@ -50,7 +50,6 @@
 })();
 
 /* 實現hobby圖片懶加載 */
-
 (function () {
     const images = document.querySelectorAll('img[data-src]');
 

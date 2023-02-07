@@ -55,7 +55,7 @@
 
     // 設定在什麼情況下觸發 callback 函式
     const options = {
-        rootMargin: '0px 0px 50px 0px',
+        rootMargin: '0px 0px 100px 0px',
         threshold: 0
     }
 

@@ -118,52 +118,236 @@
     <div class="heading">my portfolio</div>
     <div class="box-container">
 
-      <div class="box">
+      <div class="box" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         <img src="./image/my-portfolio1.png" alt="仿京東網站練習">
-        <h2>JingDong Website</h2>
+        <h2>JingDong Website </h2>
         <p>HTML + CSS + Vanilla JS + NodeJS</p>
       </div>
+      <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Mock JingDong Website <span>(Start from scratch)</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: HTML、SCSS、JS vanilla、NodeJS (建立簡易的後端服務器)</p>
+              <ul>
+                <li>搜索框模糊查詢</li>
+                <li>Axios發送請求</li>
+                <li>Throttle 節流 (lodash插件)</li>
+                <li>Lazy loading 圖片懶加載 (IntersectionObserver API)</li>
+                <li>輪播圖計時器詳情頁放大鏡 等小動畫</li>
+                <li>JS代碼的模塊化管理</li>
+              </ul>
+              <span>部分功能需開啟Github Repo內所附之server，否則無法展示</span><br>
+              <a href="https://alanchuang-0710.github.io/Project_Jindong_website/index.html">項目連結</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div class="box">
+      <div class="box" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
         <img src="./image/my-portfolio2.png" alt="氣象預報APP">
         <h2>Weather APP</h2>
         <p>Vue2 + weatherapi</p>
       </div>
+      <div class="modal fade" id="staticBackdrop2" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Build tiny Weather Forecast APP</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: HTML、SCSS、JS vanilla、Vue、第三方API串接</p>
+              <ul>
+                <li>Axios發送請求</li>
+                <li>API串接</li>
+                <li>背景圖片隨返回數據轉換</li>
+              </ul>
+              <span>天氣數據來源: weatherapi</span><br>
+              <span>圖片來源: unsplash</span>
+              <br>
+              <a href="https://github.com/AlanChuang-0710/Project_weather_app_vue.git">項目連結</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div class="box">
+      <div class="box" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
         <img src="./image/my-portfolio3.png" alt="代辦清單APP練習">
         <h2>Todo List</h2>
         <p>Vue2</p>
       </div>
+      <div class="modal fade" id="staticBackdrop3" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Build tiny TodoList APP</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: HTML、SCSS、JS vanilla、Vue</p>
+              <ul>
+                <li>Vue 組件的切分</li>
+                <li>代辦事項CRUD的功能</li>
+                <li>全局事件總線($bus) 的應用</li>
+                <li>localStorage 的應用</li>
+                <li>nanoid 插件的應用</li>
+              </ul>
+              <br>
+              <a href="https://github.com/AlanChuang-0710/Project_todolist_vue.git">項目連結</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div class=" box">
+      <div class=" box" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
         <img src="./image/my-portfolio4.png" alt="GitHub User App練習">
         <h2>GitHub User APP</h2>
         <p>Vue2 + GitHub USER API</p>
       </div>
+      <div class="modal fade" id="staticBackdrop4" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Build tiny GitHub User Search APP</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: HTML、SCSS、JS vanilla、Vue</p>
+              <ul>
+                <li>Axios發送請求</li>
+                <li>第三方API串接</li>
+                <li>數據返回前、中、後，各階段頁面處理</li>
+              </ul>
+              <span style="text-transform: none;">用戶數據來源: https://api.github.com </span>
+              <br>
+              <a href="https://github.com/AlanChuang-0710/Project_git_user_info_vue.git">項目連結</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <div class="box">
+      <div class="box" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
         <img src="./image/my-portfolio5.png" alt="仿BBC新聞網練習">
         <h2>BBC News Website</h2>
         <p>HTML + CSS + Vanilla JS + Bootstrap</p>
       </div>
-
-      <div class="box">
-        <img src="./image/my-portfolio6.png" alt="夏威夷租借網練習">
-        <h2>Hawaii Rental Service</h2>
-        <p>HTML + CSS + Vanilla JS </p>
+      <div class="modal fade" id="staticBackdrop5" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Mimic BBC News Website</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: HTML、SCSS、JS vanilla、Bootstrap5</p>
+              <ul>
+                <li>針對 992px, 768px 不同視口設置響應式布局</li>
+              </ul>
+              <br>
+              <a href="https://alanchuang-0710.github.io/Project_BBC_News_website/">項目連結</a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="box">
-        <img src="./image/my-portfolio7.png" alt="小型電商網站練習">
+      <div class="box" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+        <img src="./image/my-portfolio6.jpg" alt="尚品匯電商網站練習">
+        <h2>Shangpinghui Website</h2>
+        <p>Vue CLI + Vuex + Vue Router + Element UI </p>
+      </div>
+      <div class="modal fade" id="staticBackdrop6" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Build e-commerce website based on Vue2</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: Vue CLI、Vuex、Vue Router、Element UI、Axios </p>
+              <ul>
+                <li>首頁、搜索列表、商品頁等多個子組件</li>
+                <li>路由拆解、路由守衛</li>
+                <li>Axios二次封裝</li>
+                <li>第三方API串接</li>
+                <li>Vuex數據庫管理</li>
+                <li>分頁器、放大鏡等小功能</li>
+              </ul>
+              <br>
+              <a href="https://github.com/AlanChuang-0710/Project_Shangpinhui_vue.git">項目連結</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
+        <img src="./image/my-portfolio7.png" alt="ATTIRE服飾電商網站練習">
         <h2>e-commerce Website</h2>
-        <p>Vue + Vuex (ongoing project)</p>
+        <p>HTML + CSS + Vanilla JS + Bootstrap</p>
+      </div>
+      <div class="modal fade" id="staticBackdrop7" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Build tiny Clothes e-commerce website</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: HTML、SCSS、JS vanilla、Bootstrap5</p>
+              <ul>
+                <li>針對 992px, 768px 不同視口設置響應式布局</li>
+                <li style="text-transform: none;">導入Isotope.js進行流動式布局</li>
+              </ul>
+              <br>
+              <a href="https://alanchuang-0710.github.io/Project_e-commerce_cloth_website/">項目連結</a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="box">
+      <div class="box" data-bs-toggle="modal" data-bs-target="#staticBackdrop8">
         <img src="./image/my-portfolio8.png" alt="個人網站練習">
         <h2>Personal Blog</h2>
         <p>HTML + CSS + Vanilla JS + Bootstrap</p>
+      </div>
+      <div class="modal fade" id="staticBackdrop8" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Current website!</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>涉及技術包含: HTML、SCSS、JS vanilla、Bootstrap5</p>
+              <ul>
+                <li>響應式布局</li>
+                <li>引入typed.js實現頁面打字效果</li>
+                <li>透過IntersectionObserver API實現圖片懶加載</li>
+              </ul>
+              <br>
+              <a href="https://github.com/AlanChuang-0710/Project_todolist_vue.git">項目連結</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -388,6 +572,7 @@
 
     var typed = new Typed('.typing-text', options);
   </script>
+  <script src="./js/bootstrap.min.js"></script>
   <script src="./js/lodash.js"></script>
   <script src="./js/main.js"></script>
 </body>

@@ -73,7 +73,6 @@
     images.forEach(image => observer.observe(image));
 })();
 
-
 /* Hobby區的選擇性顯示圖片的效果 */
 (function () {
     let hobbyBtns = document.querySelectorAll(".hobby .controls li");
